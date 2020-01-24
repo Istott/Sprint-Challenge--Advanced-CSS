@@ -1,1 +1,40 @@
 // Navigation code here
+.navigation {
+    width: 100%;
+    display: flex;
+    Justify-content: center;
+
+    .top {
+        display: flex;
+        Justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        .bordercolor();
+        background-color: @nav-bg;
+    }
+
+    .spacewalkers {
+        .bordercolor();
+        padding: 1% 0;
+
+        h1 {
+            font-size: 4.2rem;
+        }
+    }
+
+    nav {
+        .bordercolor();
+        width: 45%;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.6rem;
+        text-decoration: none;
+        padding: 1% 0;
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
