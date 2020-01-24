@@ -172,6 +172,8 @@ p {
   width: 100%;
   display: flex;
   Justify-content: center;
+  position: fixed;
+  top: 0;
 }
 .navigation .top {
   display: flex;
@@ -180,6 +182,7 @@ p {
   align-items: center;
   width: 80%;
   background-color: #F6F6F6;
+  opacity: 0.9;
 }
 @media (max-width: 500px) {
   .navigation .top {
@@ -227,6 +230,12 @@ footer {
 }
 .home {
   border: 1px white solid;
+  margin-top: 7%;
+}
+@media (max-width: 500px) {
+  .home {
+    margin-top: 15%;
+  }
 }
 .home .intro {
   border: 1px white solid;
