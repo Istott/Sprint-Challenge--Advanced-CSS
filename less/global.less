@@ -10,6 +10,12 @@ html {
 html, body {
   font-family: 'Ubuntu', sans-serif;
   color: @main-font-color;
+  
+}
+
+body {
+  .bordercolor();
+
 }
 
 h1, h2, h3, h4, h5 {
@@ -31,8 +37,12 @@ p {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 60%;
   width: 100%;
   margin: 0 auto;  
+
+  @media @phone {
+    max-width: 100%;
+}
 }
 
